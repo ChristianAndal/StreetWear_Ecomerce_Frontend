@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Streetwear Signal</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="topbar">
+      <a class="brand" href="#home">Streetwear Signal</a>
+      <nav class="nav">
+        <a href="#drops">Drops</a>
+        <a href="#lookbook">Lookbook</a>
+        <a href="#arrival">Arrival</a>
+      </nav>
+      <a class="cta-mini" href="#shop">Cart 02</a>
+    </header>
+
+    <main id="home">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Spring '26 capsule</p>
+          <h1>Streetwear built for fast nights and loud mornings.</h1>
+          <p class="hero-text">
+            Oversized fits, hard lines, graphic layers, and motion-first visuals
+            made for a modern streetwear drop.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-dark" href="#shop">Shop the Drop</a>
+            <a class="button button-light" href="#lookbook">View Lookbook</a>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-label="Featured collection images">
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+
+          <article class="hero-card hero-card-main" data-tilt>
+            <img src="assets/hoodie.svg" alt="Black streetwear hoodie illustration">
+            <div class="hero-card-copy">
+              <span>Signal Hoodie</span>
+              <strong>$84</strong>
+            </div>
+          </article>
+
+          <article class="hero-card hero-card-side" data-tilt>
+            <img src="assets/sneaker.svg" alt="Chunky sneaker illustration">
+            <div class="hero-card-copy">
+              <span>Metro Runner</span>
+              <strong>$118</strong>
+            </div>
+          </article>
+
+          <div class="floating-tag tag-sale">New Drop</div>
+          <div class="floating-tag tag-year">EST 2026</div>
+        </div>
+      </section>
+
+      <section class="marquee" aria-label="Brand messages">
+        <div class="marquee-track">
+          <span>Utility Layers</span>
+          <span>Oversized Energy</span>
+          <span>Limited Capsule</span>
+          <span>City Tested</span>
+          <span>Utility Layers</span>
+          <span>Oversized Energy</span>
+          <span>Limited Capsule</span>
+          <span>City Tested</span>
+        </div>
+      </section>
+
+      <section class="drops" id="drops">
+        <div class="section-heading">
+          <p class="eyebrow">Featured drop</p>
+          <h2>Built to feel editorial, but ready to sell.</h2>
+        </div>
+
+        <div class="product-grid" id="shop">
+          <article class="product-card">
+            <div class="product-image product-image-orange">
+              <img src="assets/hoodie.svg" alt="Streetwear hoodie">
+            </div>
+            <div class="product-meta">
+              <h3>Signal Hoodie</h3>
+              <p>Heavyweight fleece with reflective chest print.</p>
+              <div class="product-bottom">
+                <span>$84</span>
+                <a href="#home">Add to cart</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card product-card-dark">
+            <div class="product-image product-image-sand">
+              <img src="assets/jacket.svg" alt="Technical jacket">
+            </div>
+            <div class="product-meta">
+              <h3>Transit Shell</h3>
+              <p>Weatherproof shell with modular pockets and contrast seams.</p>
+              <div class="product-bottom">
+                <span>$132</span>
+                <a href="#home">Add to cart</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-image product-image-red">
+              <img src="assets/sneaker.svg" alt="Streetwear sneaker">
+            </div>
+            <div class="product-meta">
+              <h3>Metro Runner</h3>
+              <p>Chunky sole runner with suede overlays and neon accents.</p>
+              <div class="product-bottom">
+                <span>$118</span>
+                <a href="#home">Add to cart</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="lookbook" id="lookbook">
+        <div class="lookbook-panel">
+          <div class="lookbook-copy">
+            <p class="eyebrow">Lookbook</p>
+            <h2>Motion, layers, and texture that feel alive on the page.</h2>
+            <p>
+              The imagery glides, the cards react to movement, and the whole
+              layout leans into a bold retail campaign feel instead of a generic template.
+            </p>
+          </div>
+
+          <div class="lookbook-stack">
+            <div class="stack-card stack-back">
+              <img src="assets/jacket.svg" alt="Jacket product artwork">
+            </div>
+            <div class="stack-card stack-front">
+              <img src="assets/hoodie.svg" alt="Hoodie product artwork">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="arrival" id="arrival">
+        <div class="arrival-copy">
+          <p class="eyebrow">New arrival</p>
+          <h2>Built for mobile and desktop with animated visuals that still stay clean.</h2>
+        </div>
+        <a class="button button-dark" href="#shop">Explore Collection</a>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
